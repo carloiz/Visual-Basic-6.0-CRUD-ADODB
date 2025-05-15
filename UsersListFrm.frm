@@ -3,14 +3,14 @@ Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "MSFLXGRD.OCX"
 Begin VB.Form UsersListFrm 
    BackColor       =   &H80000003&
    Caption         =   "User Management"
-   ClientHeight    =   5445
+   ClientHeight    =   6510
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   13665
+   ClientWidth     =   13680
    LinkTopic       =   "Form1"
    MDIChild        =   -1  'True
-   ScaleHeight     =   5445
-   ScaleWidth      =   13665
+   ScaleHeight     =   6510
+   ScaleWidth      =   13680
    Begin MSFlexGridLib.MSFlexGrid MSFlexGrid1 
       Height          =   4335
       Left            =   120
