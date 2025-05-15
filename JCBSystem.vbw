@@ -1,0 +1,6 @@
+UsersListFrm = 0, 0, 892, 565, C, 26, 26, 1059, 591, C
+ProductListFrm = 0, 0, 0, 0, C, 104, 104, 996, 669, C
+MainFrm = 104, 105, 996, 669, C, 195, 125, 1087, 690, C
+DataManager = 229, 202, 1121, 767, C
+UsersDTO = 88, 205, 980, 770, C
+Connection = 78, 78, 970, 643, C
