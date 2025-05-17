@@ -1,6 +1,8 @@
-UsersListFrm = 0, 0, 892, 565, C, 26, 26, 1059, 591, C
-ProductListFrm = 0, 0, 0, 0, C, 104, 104, 996, 669, C
+UserListFrm = 140, 148, 1032, 680, I, 26, 26, 1059, 591, C
 MainFrm = 104, 105, 996, 669, C, 195, 125, 1087, 690, C
-DataManager = 229, 202, 1121, 767, C
+DataManager = 156, 46, 1048, 749, C
 UsersDTO = 88, 205, 980, 770, C
 Connection = 78, 78, 970, 643, C
+CreateUserDto = 78, 78, 970, 643, C
+frmLogin = 0, 0, 0, 0, C, 130, 130, 1022, 695, C
+UserMngmntFrm = 165, 172, 1055, 737, C, 156, 156, 1048, 721, C

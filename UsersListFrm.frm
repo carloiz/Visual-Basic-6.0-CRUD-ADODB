@@ -1,16 +1,24 @@
 VERSION 5.00
 Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "MSFLXGRD.OCX"
-Begin VB.Form UsersListFrm 
+Begin VB.Form UserListFrm 
    BackColor       =   &H80000003&
    Caption         =   "User Management"
-   ClientHeight    =   6510
+   ClientHeight    =   5985
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   13680
    LinkTopic       =   "Form1"
    MDIChild        =   -1  'True
-   ScaleHeight     =   6510
+   ScaleHeight     =   5985
    ScaleWidth      =   13680
+   Begin VB.CommandButton AddBtn 
+      Caption         =   "Add New"
+      Height          =   615
+      Left            =   480
+      TabIndex        =   1
+      Top             =   4920
+      Width           =   1815
+   End
    Begin MSFlexGridLib.MSFlexGrid MSFlexGrid1 
       Height          =   4335
       Left            =   120
@@ -31,11 +39,19 @@ Begin VB.Form UsersListFrm
       EndProperty
    End
 End
-Attribute VB_Name = "UsersListFrm"
+Attribute VB_Name = "UserListFrm"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub addBtn_Click()
+    With UserMngmntFrm
+        .Top = Top + (Height - .Height) \ 2
+        .Left = Left + (Width - .Width) \ 2
+        .Show vbModal
+    End With
+End Sub
+
 Private Sub Form_Load()
     ' I-load ang database connection sa simula
     Call OpenConnection

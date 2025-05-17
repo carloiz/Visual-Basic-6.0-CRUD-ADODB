@@ -25,11 +25,11 @@ Begin VB.MDIForm MainFrm
       BorderStyle     =   1
       Begin VB.CommandButton Command2 
          Caption         =   "Users"
-         Height          =   375
+         Height          =   495
          Left            =   240
          TabIndex        =   1
          Top             =   120
-         Width           =   1815
+         Width           =   2655
       End
    End
 End
@@ -43,6 +43,6 @@ Private Sub Command1_Click()
 End Sub
 
 Private Sub Command2_Click()
-    Load UsersListFrm
-    UsersListFrm.Show
+    Load UserListFrm
+    UserListFrm.Show
 End Sub
